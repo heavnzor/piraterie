@@ -11,7 +11,7 @@ header {
     align-items: center;
 }
 
-.centered{
+.centered {
     justify-content: center;
     justify-self: center;
     text-align: center;
@@ -36,13 +36,11 @@ header {
     margin: 5px;
     border-radius: 30px;
     justify-content: center;
-   
+
 
 }
 
-.app{
-    
-}
+.app {}
 
 .specialtitle {
     font-family: 'DotGothic16', sans-serif;
