@@ -104,7 +104,7 @@
 @media all and (min-width: 1100px) {
 
   img {
-    width: 200px;
+    width: 120px;
   }
 
   .box {
@@ -112,7 +112,7 @@
     margin: 4px;
   }
   span img {
-    width: 150px;
+    width: 120px;
   }  
 
   .font-size-0 {
@@ -173,14 +173,14 @@
 @media all and (max-width: 2100px) {
 
   img {
-    width: 200px;
+    width: 120px;
   }
   .box {
     padding: 5px;
     margin: 4px;
   }
   span img {
-    width: 150px;
+    width: 120px;
   }  
 
   .font-size-0 {
@@ -239,7 +239,7 @@
 @media all and (max-width: 2000px) {
 
   img {
-    width: 200px;
+    width: 120px;
   }
 
   .box {
@@ -248,7 +248,7 @@
   }
 
   span img {
-    width: 150px;
+    width: 120px;
   }  
 
 
@@ -307,7 +307,7 @@
 
 @media all and (max-width: 1900px) {
   img {
-    width: 200px;
+    width: 120px;
   }
 
   .box {
@@ -316,7 +316,7 @@
   }
 
   span img {
-    width: 150px;
+    width: 120px;
   }  
 
   .font-size-0 {
@@ -374,7 +374,7 @@
 
 @media all and (max-width: 1800px) {
   img {
-    width: 200px;
+    width: 120px;
   }
 
   .box {
@@ -383,7 +383,7 @@
   }
 
   span img {
-    width: 150px;
+    width: 120px;
   }  
 
   .font-size-0 {
@@ -441,7 +441,7 @@
 
 @media all and (max-width: 1700px) {
   img {
-    width: 200px;
+    width: 120px;
   }
 
   .box {
@@ -450,7 +450,7 @@
   }
 
   span img {
-    width: 150px;
+    width: 120px;
   }  
 
   .font-size-0 {
@@ -508,7 +508,7 @@
 
 @media all and (max-width: 1600px) {
   img {
-    width: 200px;
+    width: 120px;
   }
 
   .box {
@@ -517,7 +517,7 @@
   }
 
   span img {
-    width: 150;
+    width: 120px;
   }
 
   .font-size-0 {
@@ -575,7 +575,7 @@
 
 @media all and (max-width: 1500px) {
   img {
-    width: 200px;
+    width: 120px;
   }
 
   .box {
@@ -584,7 +584,7 @@
   }
 
   span img {
-    width: 150px;
+    width: 120px;
   }  
 
   .font-size-0 {
@@ -642,8 +642,7 @@
 
 @media all and (max-width: 1400px) {
   img {
-    width: 160px;
-    align-self: center;
+    width: 120px;
   }
 
   .box {
@@ -652,7 +651,7 @@
   }
 
   span img {
-    width: 130px;
+    width: 120px;
   }  
 
   .font-size-0 {
@@ -710,7 +709,7 @@
 
 @media all and (max-width: 1300px) {
   img {
-    width: 160px;
+    width: 120px;
   }
 
   .box {
@@ -719,7 +718,7 @@
   }
 
   span img {
-    width: 130px;
+    width: 120px;
   }  
 
   .font-size-0 {
@@ -777,7 +776,7 @@
 
 @media all and (max-width: 1200px) {
   img {
-    width: 160px;
+    width: 120px;
   }
 
   .box {
@@ -786,7 +785,7 @@
   }
 
   span img {
-    width: 130px;
+    width: 120px;
   }
 
   .font-size-0 {
@@ -844,7 +843,7 @@
 
 @media all and (max-width: 1100px) {
   img {
-    width: 160;
+    width: 120px;
   }
 
   .box {
@@ -853,7 +852,7 @@
   }
 
   span img {
-    width: 130px;
+    width: 120px;
   }
 
   .font-size-0 {
@@ -911,14 +910,14 @@
 
 @media all and (max-width: 1000px) {
   img {
-    width: 100px;
+    width: 120px;
   }
   .box {
     padding: 5px;
     margin: 4px;
   }
   span img {
-    width: 80px;
+    width: 120px;
   }
 
   .font-size-0 {
@@ -976,7 +975,7 @@
 
 @media all and (max-width: 900px) {
   img {
-    width: 100;
+    width: 120px;
   }
 
   .box {
@@ -985,7 +984,7 @@
   }
 
   span img {
-    width: 80;
+    width: 120px;
   }
 
   .font-size-0 {
@@ -1043,7 +1042,7 @@
 
 @media all and (max-width: 800px) {
   img {
-    width: 80px;
+    width: 120px;
   }
 
   .box {
@@ -1052,7 +1051,7 @@
   }
 
   span img {
-    width: 60px;
+    width: 120px;
   }
 
   .font-size-0 {
@@ -1110,7 +1109,7 @@
 
 @media all and (max-width: 700px) {
   img {
-    width: 80px;
+    width: 120px;
   }
 
   .box {
@@ -1119,7 +1118,7 @@
   }
 
   span img {
-    width: 60px;
+    width: 120px;
   }
 
   .font-size-0 {
@@ -1177,7 +1176,7 @@
 
 @media all and (max-width: 600px) {
   img {
-    width: 80px;
+    width: 120px;
   }
 
   .box {
@@ -1186,7 +1185,7 @@
   }
 
   span img {
-    width: 60px;
+    width: 120px;
   }
 
   .font-size-0 {
@@ -1244,12 +1243,12 @@
 
 @media all and (max-width: 500px) {
   img {
-    width: 90px;
+    width: 120px;
   }
 
 
   span img {
-    width: 40px;
+    width: 120px;
   }
 
   .font-size-0 {
@@ -1320,7 +1319,7 @@
   }
 
   span img {
-    width: 40px;
+    width: 60px;
   }
 
   .font-size-0 {
@@ -1386,7 +1385,7 @@
   }
 
   span img {
-    width: 40px;
+    width: 60px;
   }
 
   .font-size-0 {
