@@ -1,0 +1,50 @@
+body {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+header {
+    width: 100%;
+    align-items: center;
+}
+
+.centered{
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+}
+
+
+
+.container {
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    height: max-content;
+    width: auto;
+}
+
+
+
+.box {
+    align-content: center;
+    border: black solid 1px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+    justify-content: center;
+   
+
+}
+
+.app{
+    
+}
+
+.specialtitle {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px;
+}
