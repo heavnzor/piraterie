@@ -12,9 +12,9 @@ header {
 }
 
 .centered {
-    justify-content: center;
-    justify-self: center;
-    text-align: center;
+    justify-content: center !important;
+    justify-self: center !important;
+    text-align: center !important;
 }
 
 article {
@@ -25,6 +25,14 @@ article {
     padding-top: 75px;
 }
 
+.proposenewsletter:hover {
+
+    visibility: visible;
+    display: block;
+
+}
+
+
 .container {
     align-content: center;
     justify-content: center;
@@ -33,11 +41,10 @@ article {
     width: auto;
 }
 
-div iframe {
+iframe {
     text-align: center;
     justify-content: center;
-    align-items: center;
-    align-content: center;
+    display : inline-block
 }
 
 
