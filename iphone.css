@@ -1176,7 +1176,7 @@
 
 @media all and (max-width: 600px) {
   img {
-    width: 120px;
+    width: 80px;
   }
 
   .box {
@@ -1185,7 +1185,7 @@
   }
 
   span img {
-    width: 120px;
+    width: 80px;
   }
 
   .font-size-0 {
@@ -1243,12 +1243,12 @@
 
 @media all and (max-width: 500px) {
   img {
-    width: 120px;
+    width: 80px;;
   }
 
 
   span img {
-    width: 120px;
+    width: 80px;
   }
 
   .font-size-0 {
