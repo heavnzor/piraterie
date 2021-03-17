@@ -2,8 +2,8 @@ body {
     justify-content: center;
     align-content: center;
     align-items: center;
-}
 
+}
 
 
 header {
@@ -17,12 +17,12 @@ header {
     text-align: center;
 }
 
-article{
-    padding-top : 75px;
+article {
+    padding-top: 75px;
 }
 
-.carousel{
-    padding-top : 75px;
+.carousel {
+    padding-top: 75px;
 }
 
 .container {
@@ -33,16 +33,18 @@ article{
     width: auto;
 }
 
-div iframe{
+div iframe {
     text-align: center;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
     align-content: center;
 }
 
+
+
 .box {
     align-content: center;
-    
+
     padding: 5px;
     margin: 5px;
 
