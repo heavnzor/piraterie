@@ -17,6 +17,9 @@ header {
     text-align: center;
 }
 
+article{
+    padding-top : 75px;
+}
 
 .carousel{
     padding-top : 75px;
