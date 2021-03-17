@@ -130,7 +130,7 @@
                             <img src="icons/star.svg" alt="Ajouter aux favoris" title="Ajouter le site aux favoris">
                             <p class="text-center">Ajoutez la page aux favoris!</p>
                             <br>
-                            <p class="font-size-8">cmd + d sur mac et ctrl + d sur windows</p>
+                            <p class="font-size-12 text-center">cmd + d sur mac et ctrl + d sur windows</p>
                         </h2>
                         <div class="indicates-required">
                             <span class="asterisk">*</span>
@@ -218,7 +218,7 @@
             <hr>
             <!-- SEPARATION DE SECTION ViDEOS PAR RAPPORT A ARTICLE-->
             <section itemscope itemtype="http://schema.org/Event" class="list-group">
-                <article class="list-group-item list-group-item-action flex-column align-items-start ">
+                <article class="list-group-item list-group-item-action flex-column align-items-start " onmouseover="vaEtVient();">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">
                             <span class="text-danger" itemprop="info-event" style="text-decoration: underline;">Concert passé</span>
@@ -229,13 +229,15 @@
                         <span itemprop="description">
                             Booba en concert aux states ! Au Webster Hall
                         </span>
-                    </p>
+                    </p>  <div id="proposenewsletter-2" style="display: none;">
+                        <a href="#mc_embed_signup" class="text-white"><ins>Inscris toi à la newsletter et nous te tiendrons au courant des dates des prochains concerts !</ins></a>
+                    </div>
                     <small>
                         <time itemprop="startDate" datetime="2021-02-19">19 février 2021</time>
                     </small>
                 </article>
-                <article class="list-group-item list-group-item-action flex-column align-items-start ">
-                    <div class="d-flex w-100 justify-content-between">
+                <article class="list-group-item list-group-item-action flex-column align-items-start "onmouseover="vaEtVient();">
+                    <div class="d-flex w-100 justify-content-between"  >
                         <h5 class="mb-1">
                             <span class="text-danger" itemprop="info-event" style="text-decoration: underline;">Concert passé</span>
                         </h5>
@@ -248,6 +250,9 @@
                             Booba en concert dans son fief à Boulbi ! Boulogne Billancourt
                         </span>
                     </p>
+                    <div id="proposenewsletter-1" style="display: none;">
+                        <a href="#mc_embed_signup" class="text-white"><ins>Inscris toi à la newsletter et nous te tiendrons au courant des dates des prochains concerts !</ins></a>
+                    </div>
                     <small>
                         <time itemprop="startDate" datetime="2020-03-07">7 mars 2020</time>
                     </small>
@@ -255,6 +260,7 @@
             </section>
             <br>
             <section class="centered">
+                <h1 class="display-1 font-size-2" style="padding-bottom: 50px;">Vidéos de concerts, interviews, clash</h1>
                 <iframe
                     width="300px"
                     height="300px"
@@ -313,6 +319,24 @@
             </footer>
         </main>
     </div>
+    <script>
+        
+        function vaEtVient(){
+                if(document.getElementById('proposenewsletter-1').style.display == 'none'){
+                document.getElementById('proposenewsletter-1').style.display = 'block';
+                  }
+                  else {
+                document.getElementById('proposenewsletter-1').style.display = 'none';
+                }
+                if(document.getElementById('proposenewsletter-2').style.display == 'none'){
+                document.getElementById('proposenewsletter-2').style.display = 'block';
+                  }
+                  else {
+                document.getElementById('proposenewsletter-2').style.display = 'none';
+                }
+        }
+
+        </script>
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
     <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email'; /*
  * Translated default messages for the $ validation plugin for MAILCHIMP
