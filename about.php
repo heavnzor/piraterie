@@ -120,13 +120,13 @@ background-color: rgb(4, 155, 255);
                 method="post"
                 id="mc-embedded-subscribe-form"
                 name="mc-embedded-subscribe-form"
-                class="validate"
+                 class="validate card-body"
                 target="_blank"
                 novalidate
             >
                 <div id="mc_embed_signup_scroll">
                     <h2>
-                        <span class="font-size-9 centered">
+                          <span class="font-size-9 centered card-title">
                             Rejoins l'association des pirates !
                             <span class="font-italic">un seul endroit</span>
                         </span>
