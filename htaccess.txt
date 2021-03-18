@@ -1,3 +1,3 @@
-RewriteEngine On
-RewriteCond %{HTTPS} OFF
-RewriteRule (.*) https://%{HTTP_HOST}%^/piraterie/%{REQUEST_URI}
+RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule (.*) https://www.piraterie.link/$1 [R=301,L]
