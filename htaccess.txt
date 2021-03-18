@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTPS} OFF
+RewriteRule (.*) https://%{HTTP_HOST}%^/piraterie/%{REQUEST_URI}
