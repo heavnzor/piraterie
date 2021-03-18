@@ -126,7 +126,7 @@ background-color: rgb(4, 155, 255);
             >
                 <div id="mc_embed_signup_scroll">
                     <h2>
-                        <span class="font-size-9 centered" style="padding: 0px; margin: 0px;">
+                        <span class="font-size-9 centered">
                             Rejoins l'association des pirates !
                             <span class="font-italic">un seul endroit</span>
                         </span>
@@ -140,6 +140,7 @@ background-color: rgb(4, 155, 255);
                         title="Ajouter le site aux favoris"
                     >
                     <p class=" centered">Ajoutez la page aux favoris!</p>
+                    <br>
                     <p class="font-size-12 centered">cmd + d sur mac et ctrl + d sur windows</p>
                     <div class="indicates-required">
                         <span class="asterisk">*</span>
@@ -184,15 +185,17 @@ background-color: rgb(4, 155, 255);
         <br>
         <br>
         <hr>
-        <!-- SEPARATION DU HEADER PAR RAPPORT A ABOUT-->
-        <section style="padding-top: 200px;" id="about-us">
+        <!-- SEPARATION DU HEADER PAR RAPPORT AU CAROUSEL-->
+        <section  style="padding-top: 200px;" id="about-us" >
             <h1 class="display-1 centered font-size-2" id="piraterie">
-                Qui sommes-nous ? - <a href="#contact">Contact</a>
+                <strong>
+                    Qui sommes-nous ? - <a href="#contact">Contact</a>
+                </strong>
             </h1>
             <br>
             <p style="text-indent: 50px; padding-top: 20px;">
                 Une association de fans de l'artiste interprete Booba aussi connu sous le nom de B2O ou Ellie Yaffa de son vrai nom.
-                Ici, vous pourrez bientôt partager vos photos et vidéos favorites du rappeur, un forum de discussion est aussi en cours de réalisation pour pouvoir discuter entre
+            Ici, vous pourrez bientôt partager vos photos et vidéos favorites du rappeur, un forum de discussion est aussi en cours de réalisation pour pouvoir discuter entre
                 <strong>pirates.</strong>
             </p>
             <p style="text-indent: 50px;">
@@ -215,17 +218,19 @@ background-color: rgb(4, 155, 255);
             </cite>
         </section>
         <section id="contact" class="centered" style="padding-top: 100px;">
-            <object type="text/html" data="https://us1.list-manage.com/contact-form?u=82f1a14aaccc4d809519d2922&form_id=fa0068723ed02d8084bc1b1e34c4b05e" width="160" height="600">
-
+            <iframe
+                title="Contact"
+                width="800"
+                height="800"
+                src="https://us1.list-manage.com/contact-form?u=82f1a14aaccc4d809519d2922&form_id=fa0068723ed02d8084bc1b1e34c4b05e"
+            ></iframe>
         </section>
-        <footer class=" row text-center justify-content-center" style="padding-top: 100px;">
+        <footer class=" row text-center justify-content-center">
             Copyright 2021&nbsp;
             <a href="https://www.instagram.com/l.homme.invisible/" target="_blank">heavnzor</a>
             &nbsp;Tous droits réservés
         </footer>
     </div>
-  
-        
     <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
     <script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email'; /*
             * Translated default messages for the $ validation plugin for MAILCHIMP

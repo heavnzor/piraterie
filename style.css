@@ -37,7 +37,10 @@ iframe {
 article {
     padding-top: 75px;
 }
-
+object {
+    width:800px;
+    height:800px;
+  }
 .carousel {
     padding-top: 75px;
 }
