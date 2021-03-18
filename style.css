@@ -11,10 +11,24 @@ header {
     align-items: center;
 }
 
+iframe {
+    padding: 5px;
+}
+
+
+
 .centered {
     justify-content: center !important;
     justify-self: center !important;
     text-align: center !important;
+    align-self: center !important;
+}
+
+#mc_embed_signup form {
+    justify-content: center !important;
+    justify-self: center !important;
+    text-align: center !important;
+    align-self: center !important;
 }
 
 article {
@@ -28,7 +42,7 @@ article {
 .proposenewsletter:hover {
 
     visibility: visible;
-    
+
 
 }
 
@@ -44,7 +58,7 @@ article {
 iframe {
     text-align: center;
     justify-content: center;
-    display : inline-block
+    display: inline-block
 }
 
 

@@ -111,9 +111,13 @@
     padding: 5px;
     margin: 4px;
   }
+
+  form div img{
+    width: 80px
+  }
   span img {
     width: 120px;
-  }  
+  }
 
   .font-size-0 {
     font-size: 3.1vw;
@@ -175,13 +179,18 @@
   img {
     width: 120px;
   }
+
   .box {
     padding: 5px;
     margin: 4px;
   }
+
+  form div img{
+    width: 80px
+  }
   span img {
     width: 120px;
-  }  
+  }
 
   .font-size-0 {
     font-size: 118px;
@@ -247,9 +256,12 @@
     margin: 4px;
   }
 
+  form div img{
+    width: 80px
+  }
   span img {
     width: 120px;
-  }  
+  }
 
 
   .font-size-0 {
@@ -315,9 +327,12 @@
     margin: 4px;
   }
 
+  form div img{
+    width: 80px
+  }
   span img {
     width: 120px;
-  }  
+  }
 
   .font-size-0 {
     font-size: 107px;
@@ -382,9 +397,12 @@
     margin: 4px;
   }
 
+  form div img{
+    width: 80px
+  }
   span img {
     width: 120px;
-  }  
+  }
 
   .font-size-0 {
     font-size: 102px;
@@ -449,9 +467,12 @@
     margin: 4px;
   }
 
+  form div img{
+    width: 80px
+  }
   span img {
     width: 120px;
-  }  
+  }
 
   .font-size-0 {
     font-size: 96px;
@@ -511,6 +532,9 @@
     width: 120px;
   }
 
+  form div img{
+    width: 80px
+  }
   .box {
     padding: 5px;
     margin: 4px;
@@ -583,9 +607,12 @@
     margin: 4px;
   }
 
+  form div img{
+    width: 80px
+  }
   span img {
     width: 120px;
-  }  
+  }
 
   .font-size-0 {
     font-size: 84px;
@@ -650,9 +677,12 @@
     margin: 4px;
   }
 
+  form div img{
+    width: 80px;
+  }
   span img {
     width: 120px;
-  }  
+  }
 
   .font-size-0 {
     font-size: 78px;
@@ -717,9 +747,12 @@
     margin: 4px;
   }
 
+  form div img{
+    width: 60px;
+  }
   span img {
     width: 120px;
-  }  
+  }
 
   .font-size-0 {
     font-size: 72px;
@@ -784,6 +817,9 @@
     margin: 4px;
   }
 
+  form div img{
+    width: 60px;
+  }
   span img {
     width: 120px;
   }
@@ -851,6 +887,10 @@
     margin: 4px;
   }
 
+  form div img {
+    width: 70px;
+  }
+
   span img {
     width: 120px;
   }
@@ -912,10 +952,17 @@
   img {
     width: 120px;
   }
+
+
+  form div img {
+    width: 60px;
+  }
+
   .box {
     padding: 5px;
     margin: 4px;
   }
+
   span img {
     width: 120px;
   }
@@ -976,6 +1023,11 @@
 @media all and (max-width: 900px) {
   img {
     width: 120px;
+  }
+
+
+  form div img {
+    width: 50px;
   }
 
   .box {
@@ -1050,6 +1102,10 @@
     margin: 4px;
   }
 
+  form div img {
+    width: 50px;
+  }
+
   span img {
     width: 120px;
   }
@@ -1115,6 +1171,10 @@
   .box {
     padding: 5px;
     margin: 4px;
+  }
+
+  form div img {
+    width: 50px;
   }
 
   span img {
@@ -1184,6 +1244,10 @@
     margin: 4px;
   }
 
+  form div img {
+    width: 40px;
+  }
+
   span img {
     width: 80px;
   }
@@ -1243,12 +1307,17 @@
 
 @media all and (max-width: 500px) {
   img {
-    width: 80px;;
+    width: 80px;
+    ;
   }
 
 
   span img {
     width: 80px;
+  }
+
+  form div img {
+    width: 40px;
   }
 
   .font-size-0 {
@@ -1313,13 +1382,14 @@
   img {
     width: 60px;
   }
+
   .box {
     padding: 5px;
     margin: 4px;
   }
 
   span img {
-    width: 60px;
+    width: 40px;
   }
 
   .font-size-0 {
@@ -1379,13 +1449,14 @@
   img {
     width: 60px;
   }
+
   .box {
     padding: 5px;
     margin: 4px;
   }
 
   span img {
-    width: 60px;
+    width: 40px;
   }
 
   .font-size-0 {
