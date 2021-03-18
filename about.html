@@ -146,7 +146,7 @@ background-color: rgb(4, 155, 255);
                         <span class="asterisk">*</span>
                         Le champ e-mail ne peut pas rester vide.
                     </div>
-                    <label for="mce-EMAIL">Inscris toi et reçois toute l'actualité sur Booba!</label>
+                  
                     <br>
                     <input
                         type="email"
