@@ -8,8 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Fan-club autour de l'artiste Booba : association d'aficionados">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
-        <!-- Begin Mailchimp Signup Form -->
+          <!-- Begin Mailchimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
         <style type="text/css">
         /* style formulaire mail chimp */
@@ -22,9 +21,8 @@ background-color: rgb(4, 255, 4);
             #mc_embed_signup .button{
 background-color: rgb(4, 155, 255);
             }
-        </style>
-        <!-- Insetion du css bootstrap -->
-        <link rel="stylesheet" href="css/bootstrap.css">
+          </style>
+          <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
         <link href="style.css" type="text/css" rel="stylesheet">
         <link rel="stylesheet" media="screen" href="iphone.css">
         <!-- insertion/écrasement du style parent pour smartphone -->
@@ -34,12 +32,12 @@ background-color: rgb(4, 155, 255);
         <meta name="author" content="Antonu-Maria Mela">
     </head>
     <div class="container">
-        <header class="row mx-auto">
+        <header class="row centered">
             <div class="col-sm-12 centered">
                 <a href="index.html">
                     <img
                         src="power.svg"
-                        class="rounded"
+                        class="rounded centered "
                         alt="PIRATERIE.LINK"
                         title="PIRATERIE.LINK"
                     >
@@ -137,7 +135,8 @@ background-color: rgb(4, 155, 255);
                         src="icons/star.svg"
                         class="centered"
                         alt="Ajouter aux favoris"
-                        title="Ajouter le site aux favoris"
+                        title="Ajouter le site aux favoris" height="auto"
+width="auto" 
                     >
                     <p class=" centered">Ajoutez la page aux favoris</p>
                     <br>
@@ -231,7 +230,7 @@ background-color: rgb(4, 155, 255);
             &nbsp;Tous droits réservés
         </footer>
     </div>
-    <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+     
     <script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email'; /*
             * Translated default messages for the $ validation plugin for MAILCHIMP
             * Locale: FR

@@ -18,7 +18,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.piraterie.link/concerts.html</loc>
+  <loc>http://www.piraterie.link/event.html</loc>
   <lastmod>2021-03-16T21:15:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -27,6 +27,17 @@
   <lastmod>2021-03-16T21:15:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>http://www.piraterie.link/about.html</loc>
+  <lastmod>2021-03-16T21:15:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.piraterie.link/photos.html</loc>
+  <lastmod>2021-03-16T21:15:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 
 </urlset>

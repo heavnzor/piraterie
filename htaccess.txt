@@ -1,3 +1,4 @@
-RewriteEngine on
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule (.*) https://www.piraterie.link/$1 [R=301,L]
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^secretsbrowser.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www.secretsbrowser.net$
+RewriteRule (.*)$ https://piraterie.link/$1 [R=301,L]
