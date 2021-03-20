@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^secretsbrowser.net$ [OR]
 RewriteCond %{HTTP_HOST} ^www.secretsbrowser.net$
-RewriteRule (.*)$ https://piraterie.link/$1 [R=301,L]
+RewriteRule (.*)$ https://Piraterie.Link/$1 [R=301,L]
