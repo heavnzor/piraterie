@@ -4,13 +4,12 @@
         <meta charset="utf-8">
         <meta name="robots" content="index, follow, archive">
         <meta name="robots" content="all">
-        <script data-ad-client="ca-pub-5772253429766132" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+         <script defer data-ad-client="ca-pub-5772253429766132" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <meta name="google-site-verification" content="nFao-bXzjgKtuF8kzksfH0OCgEvMBS_91PMdnfX2WRM">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content=" Fan-club autour de l'artiste Booba : association d'aficionados. Actualités de B2O : découvrez les dernières informations concernant le Duc de Boulogne.">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-          <!-- Begin Mailchimp Signup Form -->
-        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+        
+        
         <style type="text/css">
         /* style formulaire mail chimp */
             #mc_embed_signup{background:#fff; clear:both; font:14px Helvetica,Arial,sans-serif; 
@@ -27,28 +26,13 @@ background-color: rgb(4, 155, 255);
         <link href="style.css" type="text/css" rel="stylesheet">
         <link rel="stylesheet" media="screen" href="iphone.css">
         <!-- insertion/écrasement du style parent pour smartphone -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!-- Insertion des icones google -->
         <title>Piraterie.Link</title>
         <meta name="author" content="Antonu-Maria Mela">
-    </head><body>
-           <!-- Load Facebook SDK for JavaScript -->
+    </head><body onload="chat()">
+        
       <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v10.0'
-          });
-        };
 
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
 
       <!-- Your Chat Plugin code -->
       <div class="fb-customerchat"
@@ -82,7 +66,7 @@ logged_out_greeting="Salut jeune rat-pi! Dis moi tout.">
             </div>
             <section class="box col-xs-3">
                 <span title="About us">
-                    <a href="#about-us">
+                    <a href="about.html#about-us">
                         <img src="icons/about.svg" alt="À propos de l'association" title="À propos de l'association">
                     </a>
                 </span>
@@ -184,7 +168,7 @@ width="auto"
                         type="email"
                         value=""
                         name="EMAIL"
-                        class="email"
+                        class="email centered"
                         id="mce-EMAIL"
                         placeholder="email address"
                         required
@@ -255,8 +239,25 @@ width="auto"
                 &nbsp;Tous droits réservés
             </footer>
         </div>
-         
-        <script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email'; /*
+         <script >
+            function chat(){
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v10.0'
+            });
+          };
+  
+          (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      }</script>
+
+         <script defer >(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email'; /*
             * Translated default messages for the $ validation plugin for MAILCHIMP
             * Locale: FR
             */
@@ -273,6 +274,5 @@ width="auto"
            });}(jQuery));var $mcj = jQuery.noConflict(true);
         </script>
         <!-- End mc_embed_signup-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </body>
 </html>

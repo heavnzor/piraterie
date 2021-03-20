@@ -1,48 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>http://www.piraterie.link/</loc>
-  <lastmod>2021-03-16T21:15:34+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://piraterie.link/</loc>
+	<lastmod>2021-03-20T17:19:09+01:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://www.piraterie.link/index.html</loc>
-  <lastmod>2021-03-16T21:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://piraterie.link/index.html</loc>
+	<lastmod>2021-03-20T17:19:10+01:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://www.piraterie.link/event.html</loc>
-  <lastmod>2021-03-16T21:15:35+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://piraterie.link/about.html</loc>
+	<lastmod>2021-03-20T17:19:12+01:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://www.piraterie.link/shop.html</loc>
-  <lastmod>2021-03-16T21:15:36+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://piraterie.link/event.html</loc>
+	<lastmod>2021-03-20T17:19:12+01:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://www.piraterie.link/about.html</loc>
-  <lastmod>2021-03-16T21:15:36+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://piraterie.link/shop.html</loc>
+	<lastmod>2021-03-20T17:19:12+01:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://www.piraterie.link/photos.html</loc>
-  <lastmod>2021-03-16T21:15:36+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://piraterie.link/photos.html</loc>
+	<lastmod>2021-03-20T17:19:12+01:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://www.piraterie.link/search.html</loc>
-  <lastmod>2021-03-16T21:15:36+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://piraterie.link/search.html</loc>
+	<lastmod>2021-03-20T17:19:12+01:00</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.8</priority>
 </url>
-
-
-
 </urlset>
