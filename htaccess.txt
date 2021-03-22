@@ -1,4 +1,7 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^secretsbrowser.net$ [OR]
-RewriteCond %{HTTP_HOST} ^www.secretsbrowser.net$
-RewriteRule (.*)$ https://Piraterie.Link/$1 [R=301,L]
+RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule (.*) https://www.piraterie.link/$1 [R=301,L]
+
+<FilesMatch ".(js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico)$">
+Header unset X-UA-Compatible
+</FilesMatch>
