@@ -3756,7 +3756,7 @@
   }
 
   /**
-   * Converts a string containing value + unit into a px value number
+   * Converts a string containing value + unit into a px;value number
    * @function
    * @memberof {modifiers~offset}
    * @private
@@ -4220,7 +4220,7 @@
      * '10%, 10'
      * '10 + 10%'
      * '10 - 5vh + 3%'
-     * '-10px + 5vh, 5px - 6%'
+     * '-10px;+ 5vh, 5px;- 6%'
      * ```
      * > **NB**: If you desire to apply offsets to your poppers in a way that may make them overlap
      * > with their reference element, unfortunately, you will have to disable the `flip` modifier.
