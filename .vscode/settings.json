@@ -1,4 +1,3 @@
 {
-    "git.ignoreLimitWarning": true,
-    "standard.enable": true
+    "git.ignoreLimitWarning": true
 }
