@@ -1,8 +1,0 @@
-{
-    "git.ignoreLimitWarning": true,
-    "mocha.subdirectory": "test",
-    "mocha.env": null,
-    "mocha.files.glob": "test/*.js",
-    "mocha.node_options": null
-    
-}

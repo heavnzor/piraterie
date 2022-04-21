@@ -1,6 +1,6 @@
 RewriteEngine on
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule (.*) https://www.piraterie.link/$1 [R=301,L]
+RewriteRule (.*) https://piraterie.link/$1 [R=301,L]
 
 <FilesMatch ".(js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico)$">
 Header unset X-UA-Compatible
